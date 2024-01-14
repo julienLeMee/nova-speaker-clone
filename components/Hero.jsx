@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section className='min-h-screen pt-40 w-full flex flex-col justify-center items-center text-white'>
       <div className='w-full'>
-        <div className='max-w-[48rem] flex items-start gap-6 flex-col relative z-10'>
+        <div className='max-w-[48rem] flex items-start gap-6 flex-col relative z-50'>
           <h1 className='lg:text-7xl md:text-6xl sm:text-5xl text-3xl font-medium'>Experience immersive sound at your home.</h1>
           <div className="w-full flex justify-start items-center">
-            <button className='px-5 pt-4 pb-3 border w-fit text-xs rounded-md ease-in duration-300 text-[var(--black)] bg-[var(--light-white)]'>Reserve now</button>
+            <button className='leading-none px-5 pt-4 pb-3 border w-fit text-xs rounded-md ease-in duration-300 text-[var(--black)] bg-[var(--light-white)] cursor-pointer'>Learn more</button>
           </div>
         </div>
       </div>
