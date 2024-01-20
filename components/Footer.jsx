@@ -48,10 +48,10 @@ const Footer = () => {
           <div className="flex flex-col">
             <p className='py-4 tracking-wider text-sm'>Contact</p>
             <div className=" flex-col">
-              <Link href="tel:0687324027">
+              <Link href="tel:">
                 <p className='text-gray-500 mb-2 mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Téléphone</p>
               </Link>
-              <Link href='mailto:lafermedenovelle@gmail.com' target='_blank'>
+              <Link href='mailto:' target='_blank'>
                 <p className='text-gray-500 mb-2 cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300 text-xs'>Email</p>
               </Link>
             </div>
@@ -59,23 +59,23 @@ const Footer = () => {
           <div className="flex flex-col">
             <p className='py-4 tracking-wider text-sm'>Social</p>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-              <Link href="tel:0687324027">
+              <Link href="tel:">
                 <BsFillTelephoneFill className='mr-4 cursor-pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='mailto:lafermedenovelle@gmail.com' target='_blank'>
+              <Link href='mailto:' target='_blank'>
                 <AiOutlineMail className='cursor-pointer mr-4 -pointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='https://instagram.com/lafermedenovelle/' target='_blank'>
+              <Link href='https://instagram.com' target='_blank'>
                 <SlSocialInstagram className='cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
-              <Link href='https://fr-fr.facebook.com/lafermedenovelle/' target='_blank'>
+              <Link href='https://fr-fr.facebook.com/' target='_blank'>
                 <FaFacebookF className='cursor-pointer mr-4 ointer hover:scale-105 hover:text-[var(--red)] ease-in duration-300' />
               </Link>
             </div>
           </div>
         </div>
       </div>
-        <p className='text-sm text-center text-gray-500 pb-20 p-8'>2023 | © La Ferme De Novelle tous droits réservés</p>
+        <p className='text-sm text-center text-gray-500 pb-20 p-8'>2024 | © Nova Speaker Clone</p>
     </div>
   )
 }
